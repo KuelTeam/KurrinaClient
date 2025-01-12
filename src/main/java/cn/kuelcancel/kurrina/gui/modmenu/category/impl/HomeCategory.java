@@ -139,7 +139,7 @@ public class HomeCategory extends Category {
 			
 			if(MouseUtils.isInside(mouseX, mouseY, this.getX() + 15 + 50, this.getY() + 164 + 43, 52, 18)) {
 				try {
-					Desktop.getDesktop().browse(new URL("https://discord.gg/Kurrina-client-967307105516281917").toURI());
+					Desktop.getDesktop().browse(new URL("https://kurrina.rth5.com").toURI());
 				} catch (Exception e) {}
 			}
 		}
