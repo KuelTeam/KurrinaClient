@@ -22,7 +22,7 @@ public class ChangelogManager {
 	
 	private void loadChangelog() {
 		
-		JsonObject jsonObject = HttpUtils.readJson("https://kurrina.rth5.com/file/changelog.json", null);
+		JsonObject jsonObject = HttpUtils.readJson("https://kuelcancel.rth5.com/changelog.json", null);
 		
 		if(jsonObject != null) {
 			

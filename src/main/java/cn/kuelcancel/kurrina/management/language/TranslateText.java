@@ -45,7 +45,7 @@ public enum TranslateText {
 	LOGIN_MESSAGE("text.loginmessage"), MICROSOFT_LOGIN("text.microsoftlogin"), OFFLINE_LOGIN("text.offlinelogin"),
 	LOGIN("text.login"), MO_BENDS("text.mobends.name"), MO_BENDS_DESCRIPTION("text.mobends.description"),
 	PACK_DISPLAY("text.packdisplay.name"), PACK_DISPLAY_DESCRIPTION("text.packdisplay.description"),
-	COMPACT("text.compact"), FOX("text.fox"), SELECT_BACKGROUND("text.selectbackground"), NIGHT("text.night"),
+	COMPACT("text.compact"), FOX("text.fox"), PHANTOM("text.phantom"), SELECT_BACKGROUND("text.selectbackground"), NIGHT("text.night"),
 	DOLPHIN("text.dolphin"), ADD("text.add"), ASYNC_SCREENSHOT("text.asyncscreenshot.name"),
 	ASYNC_SCREENSHOT_DESCRIPTION("text.asyncscreenshot.description"), MESSAGE("text.message"), NOTHING_IS_PLAYING("text.nothingisplaying"),
 	ADD_SONG("text.addsong"), VOLUME("text.volume"), ALL("text.all"), FAVORITE("text.favorite"), FREELOOK("text.freelook.name"),

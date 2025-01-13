@@ -43,11 +43,12 @@ public class BackgroundManager {
 			fileManager.createFile(dataJson);
 		}
 		
-		backgrounds.add(new DefaultBackground(0, TranslateText.FOX, new ResourceLocation("kurrina/mainmenu/background.png")));
-		backgrounds.add(new DefaultBackground(1, TranslateText.NIGHT, new ResourceLocation("kurrina/mainmenu/background-night.png")));
-		backgrounds.add(new DefaultBackground(2, TranslateText.DOLPHIN, new ResourceLocation("kurrina/mainmenu/background-dolphin.png")));
-		backgrounds.add(new DefaultBackground(3, TranslateText.KEKE, new ResourceLocation("kurrina/mainmenu/background-keke.png")));
-		backgrounds.add(new DefaultBackground(4, TranslateText.LUCA, new ResourceLocation("kurrina/mainmenu/background-lucaaus.png")));
+		backgrounds.add(new DefaultBackground(0, TranslateText.PHANTOM, new ResourceLocation("kurrina/mainmenu/background.png")));
+		backgrounds.add(new DefaultBackground(1, TranslateText.FOX, new ResourceLocation("kurrina/mainmenu/background-fox.png")));
+		backgrounds.add(new DefaultBackground(2, TranslateText.NIGHT, new ResourceLocation("kurrina/mainmenu/background-night.png")));
+		backgrounds.add(new DefaultBackground(3, TranslateText.DOLPHIN, new ResourceLocation("kurrina/mainmenu/background-dolphin.png")));
+		backgrounds.add(new DefaultBackground(4, TranslateText.KEKE, new ResourceLocation("kurrina/mainmenu/background-keke.png")));
+		backgrounds.add(new DefaultBackground(5, TranslateText.LUCA, new ResourceLocation("kurrina/mainmenu/background-lucaaus.png")));
 
 
 		backgrounds.add(new DefaultBackground(999, TranslateText.ADD, null));

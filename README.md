@@ -3,7 +3,7 @@
 </p>
 
 
-# 进入我们的[官网](https://kurrina.rth5.com/)查看更多
+# 进入我们的[官网](https://kuelteam.github.io/)查看更多
 <br>
 
 ## 许可证
