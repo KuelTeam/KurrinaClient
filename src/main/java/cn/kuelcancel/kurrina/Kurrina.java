@@ -61,7 +61,7 @@ public class Kurrina {
 	
 	public Kurrina() {
 		name = "Kurrina";
-		version = "0.8-Fix";
+		version = "1.0";
 	}
 	
 	public void start() {
