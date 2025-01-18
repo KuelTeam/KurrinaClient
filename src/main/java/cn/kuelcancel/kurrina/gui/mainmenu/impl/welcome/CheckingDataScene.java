@@ -26,7 +26,7 @@ public class CheckingDataScene extends MainMenuScene {
 		
 		ScaledResolution sr = new ScaledResolution(mc);
 		NanoVGManager nvg = Kurrina.getInstance().getNanoVGManager();
-		String message = "Kurrina Client Loading...";
+		String message = "Loading...";
 		
 		BlurUtils.drawBlurScreen(14);
 		

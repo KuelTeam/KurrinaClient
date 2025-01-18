@@ -25,6 +25,6 @@ gradlew build
 
 ## 运行状况
 ### Windows：运行良好
-### Linux：运行但有小问题，用fps限制mod可修复
+### Linux：可以运行但有一个小问题，启用FPS限制即可修复
 ### macOS：无法运行，缺Lib
 

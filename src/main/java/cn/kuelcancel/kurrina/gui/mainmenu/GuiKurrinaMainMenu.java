@@ -60,6 +60,7 @@ public class GuiKurrinaMainMenu extends GuiScreen {
 		scenes.add(new MainScene(this));
 		scenes.add(new AccountScene(this));
 		scenes.add(new BackgroundScene(this));
+		scenes.add(new LanguageSelectScene(this));
 		scenes.add(new ShopScene(this));
 		scenes.add(new WelcomeMessageScene(this));
 		scenes.add(new ThemeSelectScene(this));
@@ -73,6 +74,7 @@ public class GuiKurrinaMainMenu extends GuiScreen {
 		if(instance.getApi().isFirstLogin()) {
 			currentScene = getSceneByClass(WelcomeMessageScene.class);
 		} else {
+
 			if(instance.getAccountManager().getCurrentAccount() == null) {
 				currentScene = getSceneByClass(AccountScene.class);
 			} else {

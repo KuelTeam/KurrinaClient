@@ -66,7 +66,7 @@ public class ThemeSelectScene extends MainMenuScene {
 		int index = 1;
 		
 		nvg.drawRoundedRect(x, y, width, height, 8, this.getBackgroundColor());
-		nvg.drawCenteredText("Choose your style", x + (width / 2), y + 10, Color.WHITE, 16, Fonts.MEDIUM);
+		nvg.drawCenteredText("Choose your theme", x + (width / 2), y + 10, Color.WHITE, 16, Fonts.MEDIUM);
 		nvg.drawRect(x, y + 27, width, 1, Color.WHITE);
 		
 		scroll.onScroll();

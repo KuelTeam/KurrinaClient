@@ -37,7 +37,7 @@ public class LastMessageScene extends MainMenuScene {
 		ScaledResolution sr = new ScaledResolution(mc);
 		NanoVGManager nvg = Kurrina.getInstance().getNanoVGManager();
 		String compMessage = "Setup is complete!";
-		String welcomeMessage = "Welcome to Kurrina Client!";
+		String welcomeMessage = "Thank you for choosing Kurrina Client!";
 		
 		BlurUtils.drawBlurScreen(1 + blurAnimation.getValueFloat());
 		
