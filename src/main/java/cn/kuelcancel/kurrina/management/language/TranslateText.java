@@ -146,7 +146,7 @@ public enum TranslateText {
 	RESOURCE_COUNTER("text.resourcecounter.name"), RESOURCE_COUNTER_DESCRIPTION("text.resourcecounter.description"),
 	JOIN_SERVER("txt.joinserver"), DIRECT_CONNECT("txt.directconnect"), ADD_SERVER("txt.addserver"), EDIT("txt.edit"), DELETE("txt.delete"), REFRESH("txt.refresh"), CANCEL("txt.cancel"),
 	IRC("text.irc.name"), IRC_DESCRIPTION("text.irc.description"), IRC_CHANNEL("text.ircchannel"), IRC_CHANNEL_DESCRIPTION("text.ircchanneldescription"), IRC_NICK("text.ircnick"), IRC_NICK_DESCRIPTION("text.ircnickdescription"),
-	CHOOSETHEME("text.choosetheme");
+	MOTION_CAMERA("text.motioncamera"), MOTION_CAMERA_DESCRIPTION("text.motioncamera.description");
 
 	private String key, text;
 
